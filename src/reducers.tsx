@@ -5,7 +5,7 @@ import { TezosConseilQuery, TezosFilter } from 'conseiljs';
 
 const emptyFilters: TezosFilter = TezosConseilQuery.getEmptyTezosFilter();
 
-const initialState: ArronaxState = {
+export const initialState: ArronaxState = {
   filters: emptyFilters,
   dataView: DataView.Blocks,
   network: 'zeronet'
