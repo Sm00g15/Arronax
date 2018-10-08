@@ -1,8 +1,8 @@
+import { Arronax } from 'components/Arronax';
 import { connect } from 'react-redux';
 import { Dispatch } from 'redux';
-import { Arronax } from './components/Arronax';
-import { ArronaxState, DataView } from './types';
-import { switchTab, setFilter, setNetwork } from './actions';
+import { ArronaxState, DataView } from 'types';
+import * as actions from 'actions';
 import { TezosFilter } from 'conseiljs';
 
 interface DispatchFromProps {
